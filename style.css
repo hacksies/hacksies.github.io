@@ -1,0 +1,60 @@
+:root {
+    /* Define some global CSS custom properties */
+    --main-color: rgb(180, 180, 180);
+    --secondary-color: rgb(100, 150, 200);
+    --tertiary-color: rgb(40, 40, 40);
+    --background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-text {
+    color: var(--secondary-color);
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-link {
+    color: var(--secondary-color);
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-link:hover {
+    color: var(--main-color);
+}
+
+.body-text {
+    color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-link {
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-link:hover {
+    color: var(--main-color);
+}
+
+#main-div {
+    /* Leave some empty space on the sides of the main div */
+    width: 50%;
+
+    /* Center the div */
+    margin: auto; 
+}
+
+#demo-gif {
+    width: 100%;
+}
+
+hr {
+    border-color: var(--tertiary-color);
+    border-width: 1px;
+}
